@@ -1,0 +1,128 @@
+* {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.div {
+  height: 600px;
+  width: 1349px;
+  text-align: center;
+  display: inline;
+}
+
+#background {
+  background-image: url('travel3.jpg');
+  background-size: cover;
+  width: 1349px;
+  height: 650px;
+  background-position: fixed;
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#logo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 4px;
+  margin-right: 450px;
+  text-decoration: underline;
+  color: rgb(198, 247, 198);
+}
+
+h6 {
+  font-family: Georgia, Times, serif;
+  font-size: 15px;
+  /* font-style: italic;*/
+  font-weight: bold;
+}
+
+h1{
+  font-weight: bold ;
+}
+
+.container {
+  margin-top: 110px;
+  text-align: start;
+  width: 250px;
+  margin-left: 100px;
+  margin-bottom: 250px;
+  border-radius: 5px;
+  color: #eee;
+  animation: slideleft 2s ease-in-out 0.5s;
+}
+
+@keyframes slideleft {
+  from {
+    transform: translatex(-100px);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.button {
+  background-color: lightyellow;
+  color: black;
+  /* border: 0.5px solid black; */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+  box-shadow: 2cm;
+  text-align: center;
+  font-weight: bold;
+  font-family: Times, serif;
+  animation: slideleft 2s ease-in-out 0.5s;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Times, serif;
+  text-decoration: underline;
+}
+
+.button1 {
+  background-color: lightyellow;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  margin-right: 20px;
+  margin-top: 40px;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 2cm;
+  font-weight: bold;
+  font-family: Times, serif;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #242222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: small;
+}
