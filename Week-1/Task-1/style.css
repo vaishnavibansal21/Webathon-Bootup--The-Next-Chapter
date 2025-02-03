@@ -53,8 +53,9 @@ ul li a:hover {
   color: #ffcc00;
 }
 
-.button:hover, .button1:hover {
-  background-color:gold;
+.button:hover,
+.button1:hover {
+  background-color: gold;
   transform: scale(1.1);
 }
 
@@ -65,8 +66,8 @@ h6 {
   font-weight: bold;
 }
 
-h1{
-  font-weight: bold ;
+h1 {
+  font-weight: bold;
 }
 
 .container {
