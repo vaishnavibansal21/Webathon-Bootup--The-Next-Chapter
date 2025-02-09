@@ -1,0 +1,20 @@
+//Explain the difference between null and undefined in javascript.
+
+//NULL
+// 1.Null is an assignment value, meaning that a variable has been declared but given value is an empty or null. 
+// 2.null can't be absolutely zero.
+// 3.It is a primitive type in javascript.
+// 4.Null is converted to zero (0) while performing primitive operations.
+
+// example :
+let a = null;
+console.log(a);
+
+//UNDEFINED 
+// 1.Undefined means a variable has been declared but its value has not been assigned and we don't know a value.
+// It is a primitive type in javascript.
+// 2.Undefined is converted to NaN while performing primitive operations.
+
+//example :
+let b;
+console.log(b);
