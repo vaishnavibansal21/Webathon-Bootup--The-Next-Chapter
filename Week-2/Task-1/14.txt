@@ -1,0 +1,23 @@
+What are functions in JavaScript, How do you declare them ?
+
+1. A function (also known as a method) is a self-contained piece of code that performs a particular "function".
+
+2. A function is a reusable code-block that will be executed by an event,or when the function is called.
+ 
+3. You may call a function from anywhere within the page (or even from other pages if the function is embedded in an external .js file).
+  
+
+DECLARATION OF FUNCTION => 
+/*************** No Parameters Function **************/
+SYNTAX :
+function functionname() 
+{ 
+//some code
+}
+ 
+/*************** With Parameters Function **************/
+SYNTAX :
+function functionname(var1,var2,...varX) 
+{ 
+//some code 
+} 

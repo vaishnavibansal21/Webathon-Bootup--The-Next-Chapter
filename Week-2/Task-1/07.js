@@ -1,8 +1,0 @@
-// What is a callback function?
-
-// 1. A callback function is a function that is passed as an argument another function and executed. 
-// 2.A callback function can execute after another function has finished. 
-
-// why is it important in javascript?  
-
-// Callbacks play an important role in handling asynchronous tasks like reading files, making API requests, and executing code after certain events. They are used to make your code more readable. This can make your code more modular and understandable. 
