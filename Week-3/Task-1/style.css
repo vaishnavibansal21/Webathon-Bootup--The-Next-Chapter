@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #222;
+
+}
+/* Background styling */
+.traffic-light {
+  width: 13%;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.856);
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+/* lights shaping */
+.light {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+  border-radius: 50%;
+  background-color: gray;
+  cursor: pointer;
+}
+
+/* Hover effect and lighting */
+.red:hover {
+  background-color: red;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px orange, 0 0 40px yellow, 0 0 80px red;
+}
+
+.yellow:hover {
+  background-color: yellow;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px orangered, 0 0 40px orange, 0 0 80px yellow;
+}
+
+.green:hover {
+  background-color: green;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px greenyellow, 0 0 40px yellow, 0 0 80px green;
+}
+
+/* Button styling */
+button {
+  width: 80px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: gold;
+  color: black;
+  margin: 12px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: gold;
+  transform: scale(1.12);
+  box-shadow: 0 0 15px gold;
+}
