@@ -50,12 +50,12 @@ a {
 }
 
 ul li a:hover {
-  color: #ffcc00;
+  color: #ffcc00; 
 }
 
 .button:hover,
 .button1:hover {
-  background-color: gold;
+  background-color: gold;  
   transform: scale(1.1);
 }
 
@@ -92,19 +92,6 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
-  ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .container {
-    width: 90%;
-    margin: 50px auto;
-  }
-}
-
-
 /*Buttons styling*/
 .button {
   background-color: lightyellow;
@@ -119,6 +106,7 @@ h1 {
   font-weight: bold;
   font-family: Times, serif;
   animation: slideleft 2s ease-in-out 0.5s;
+  transition: .3s ease-in-out;
 }
 
 .btn {
@@ -143,6 +131,7 @@ h1 {
   font-weight: bold;
   font-family: Times, serif;
   text-decoration: underline;
+  transition: .3s ease-in-out;
 }
 
 /*Footer*/
